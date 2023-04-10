@@ -1,0 +1,131 @@
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+section {
+  background-image: url(/images/Rectangle_106.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 242px;
+  background: rgba(213, 144, 110, 0.52);
+  backdrop-filter: blur(5px);
+}
+.headerlist {
+  display: flex;
+  gap: 60px;
+}
+.active_page {
+  color: #d5906e;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125em;
+  line-height: 22px;
+  box-shadow: inset 0 0 0 0 #350ee2;
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 25% 10%;
+}
+.active_page:hover {
+  color: #d5906e;
+  box-shadow: inset 200px 0 0 0 #54b3d6;
+}
+.header_text {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125em;
+  line-height: 22px;
+  box-shadow: inset 0 0 0 0 #350ee2;
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 25% 10%;
+}
+.header_text:hover {
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 #54b3d6;
+}
+.header_icons {
+  display: flex;
+  align-items: center;
+  gap: 16.75px;
+}
+.signin {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  color: white;
+}
+.fa-cart-shopping {
+  color: white;
+}
+.sectionitems {
+  text-align: center;
+  border: 3px solid red;
+  padding: 188px 584px 188px;
+}
+.section1_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 48px;
+  color: white;
+  /* margin-top: 187px; */
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+.section1_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 72px;
+  width: 751px;
+  height: 57px;
+  color: white;
+}
+.shopnow {
+  width: 311px;
+  height: 56px;
+  border: 2px solid #d5906e;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  color: white;
+}
