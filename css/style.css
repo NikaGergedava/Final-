@@ -129,3 +129,22 @@ header {
   overflow: hidden;
   color: white;
 }
+main {
+  display: flex;
+  align-items: center;
+  padding: 160px 490px;
+  justify-content: space-between;
+  gap: 60px;
+}
+.card {
+  text-align: center;
+}
+figcaption {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #b53b1b;
+  margin-top: 24px;
+}
