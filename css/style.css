@@ -3,13 +3,14 @@
   width: 100%;
   margin: 0 auto;
 }
+/* SECTION */
 section {
   background-image: url(/images/Rectangle_106.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
-
+/* HEADER */
 header {
   display: flex;
   justify-content: space-between;
@@ -61,6 +62,7 @@ header {
   align-items: center;
   gap: 16.75px;
 }
+/* HEADER_END */
 .signin {
   font-family: "Inter";
   font-style: normal;
@@ -86,7 +88,6 @@ header {
   /* margin-top: 187px; */
   animation: color-change 1s infinite;
 }
-
 @keyframes color-change {
   0% {
     color: red;
@@ -129,6 +130,9 @@ header {
   overflow: hidden;
   color: white;
 }
+/* SECTION_END */
+
+/* MAIN */
 main {
   display: flex;
   margin: 0 auto;
@@ -150,6 +154,9 @@ figcaption {
   color: #b53b1b;
   margin-top: 24px;
 }
+/* MAIN_END */
+
+/* ARTICLE */
 article {
   background-color: #402101;
 }
@@ -179,6 +186,9 @@ article {
   display: flex;
   gap: 60px;
 }
+/* ARTICLE_END */
+
+/* SECTION 2 */
 .section2 {
   background-color: #white;
   /* display: flex; */
@@ -227,3 +237,79 @@ article {
   line-height: 19px;
   color: #b53b1b;
 }
+/* SECTION 2_END */
+
+/* SECTION 3 */
+.section3 {
+  display: flex;
+  border: 2px solid red;
+  background-image: url("/images/Rectangle\ 98.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background: linear-gradient(
+      0deg,
+      rgba(64, 33, 1, 0.55),
+      rgba(64, 33, 1, 0.55)
+    ),
+    url(pexels-regiane-tosatti-22823(1).jpg);
+  width: 1920px;
+  height: 480px;
+}
+.title_button {
+  /* width: 100%; */
+  margin: 0 auto;
+  align-items: center;
+  /* border: 2px solid green; */
+
+}
+
+.section3_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  margin-top: 160px;
+  margin-bottom: 56px;
+}
+.email_btn {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 160px;
+  /* border: 2px solid white; */
+}
+.mailbox {
+  position: relative;
+  background: none;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  width: 331px;
+  height: 56px;
+
+}
+.mailbox:focus {
+  outline-style: none;
+  box-shadow: none;
+}
+.subscribe_btn {
+  position: absolute;
+  left: 1010px;
+  width: 151px;
+  height: 56px;
+  background: #ffffff;
+  border-radius: 0px 10px 10px 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #402101;
+  border-style: none;
+  outline: none;
+}
+/* SECTION 3_END */
+
+
+
