@@ -24,7 +24,13 @@ header {
   width: 100%;
   position: fixed;
 }
-.headerlist {
+.fa-bars{
+  display: none;
+}
+.fa-xmark{
+  display: none;
+}
+.menu {
   display: flex;
   gap: 60px;
 }
@@ -461,6 +467,7 @@ color: #FFFFFF;
   transition: 0.5s;
 }
 .section4_btn:hover {
+  background: #7a0505;
   transform: scale(1.1);
 }
 /* SECTION 4_END */
@@ -805,7 +812,11 @@ footer {
   line-height: 48px;
   color: #ffffff;
   margin-bottom: 45px;
+  animation: color-change 3s infinite;
+
+
 }
+
 input {
   width: 190px;
   height: 40px;

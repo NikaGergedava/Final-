@@ -5,8 +5,31 @@
     width: 100%;
     margin: 0 auto;
   }
-  .headerlist {
+  .menu {
+    /* display: none; */
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 0px;
+    align-items: center;
+    height: 160px;
+    background: #B53B1B;
+    position: fixed;
+    top: 96px;
+    left: -100%;
+  }
+  .fa-bars{
+    display: block;
+    padding-left: 25px;
+    font-size: 1.313rem;
+  }
+  .fa-xmark{
     display: none;
+    padding-left: 25px;
+    font-size: 1.313rem;
+  }
+  .show{
+    left: 0;
   }
   section {
     width: 480px;
