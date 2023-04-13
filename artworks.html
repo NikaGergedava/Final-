@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Artworks</title>
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/fonts.css" />
 
     <link rel="stylesheet" href="css/style.css" />
     <script
       src="https://kit.fontawesome.com/ac74727abb.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/media.css" />
   </head>
   <body>
     <div class="container">
@@ -51,11 +52,13 @@
             <button class="search_btn" type="submit">SEARCH</button>
           </div>
         </div>
+        <div class="main_part2">
         <h2 class="artwork_main_title">All Category</h2>
         <div class="sort">
           <button class="sort_btn">SORT</button>
           <i class="fa-solid fa-arrow-down-up-across-line"></i>
         </div>
+    </div>
         <div class="artwork_products">
           <div class="artwork_card">
             <figure class="artwork_main_fig">
@@ -67,7 +70,7 @@
               <i class="fa-solid fa-cart-plus"></i>
             </div>
           </div>
-          <div class="artwork_card">
+          <div class="artwork_card none">
             <figure class="artwork_main_fig">
               <img src="images/Rectangle 102 (1).png" alt="" />
             </figure>
@@ -98,8 +101,8 @@
             </div>
           </div>
         </div>
-        <div class="artwork_products">
-          <div class="artwork_card">
+        <div class="artwork_products none">
+          <div class="artwork_card none">
             <figure class="artwork_main_fig">
               <img src="images/Rectangle 102 (4).png" alt="" />
             </figure>
@@ -109,7 +112,7 @@
               <i class="fa-solid fa-cart-plus"></i>
             </div>
           </div>
-          <div class="artwork_card">
+          <div class="artwork_card none">
             <figure class="artwork_main_fig">
               <img src="images/Rectangle 102 (5).png" alt="" />
             </figure>
@@ -119,7 +122,7 @@
               <i class="fa-solid fa-cart-plus"></i>
             </div>
           </div>
-          <div class="artwork_card">
+          <div class="artwork_card none">
             <figure class="artwork_main_fig">
               <img src="images/Rectangle 102 (6).png" alt="" />
             </figure>
@@ -129,7 +132,7 @@
               <i class="fa-solid fa-cart-plus"></i>
             </div>
           </div>
-          <div class="artwork_card">
+          <div class="artwork_card none">
             <figure class="artwork_main_fig">
               <img src="images/Rectangle 102 (7).png" alt="" />
             </figure>
@@ -141,20 +144,22 @@
           </div>
         </div>
         <div class="page_list">
-        <button class="page_num"><i class="fa-solid fa-angle-left"></i></button>
-        <button class="page_num"><a href="index.html">1</a></button>
-        <button class="page_num">2</button>
-        <button class="page_num page_num_active">3</button>
-        <button class="page_num">4</button>
-        <button class="page_num">...</button>
-        <button class="page_num">17</button>
-        <button class="page_num"><i class="fa-solid fa-angle-right"></i></button>
-    </div>
+          <button class="page_num">
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+          <button class="page_num"><a href="index.html">1</a></button>
+          <button class="page_num">2</button>
+          <button class="page_num page_num_active">3</button>
+          <button class="page_num">4</button>
+          <button class="page_num">...</button>
+          <button class="page_num">17</button>
+          <button class="page_num">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
       </main>
       <footer>
-
         <div class="footer_nav">
-        
           <div class="footer_nav_part1">
             <p class="footer_nav_title">Hele</p>
             <p><a class="footer_nav_link" href="index.html">Help Center</a></p>
@@ -190,7 +195,6 @@
           </div>
         </div>
       </footer>
-
     </div>
   </body>
 </html>

@@ -1,0 +1,157 @@
+@media (max-width: 480px) {
+  /* INDEX PAGE */
+  .container {
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .headerlist {
+    display: none;
+  }
+  section {
+    width: 480px;
+    height: 400px;
+    background-image: url(/images/Rectangle\ 109.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  header {
+    max-width: 480px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 0px;
+    height: 96px;
+    align-items: center;
+  }
+  .sectionitems {
+    justify-content: flex-start;
+
+    padding: 110px 0px 0px 0px;
+  }
+  .section1_title {
+    width: 90%;
+    margin: 0 auto;
+    /* font-size: 1.6rem; */
+    width: 500px;
+    height: 39px;
+    /* text-align: left; */
+    align-items: center;
+  }
+  .section1_text {
+    width: 440px;
+    height: 114px;
+    align-items: center;
+    margin-bottom: 52px;
+  }
+  .home_main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .none {
+    display: none;
+  }
+  .article_cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  .cardline1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .main_img_resolution {
+    /* margin: 0px; */
+    align-items: center;
+    width: 440px;
+    height: 240px;
+  }
+
+  .sell_cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .view_more {
+    display: block;
+  }
+  .section4_3text {
+    flex-direction: column;
+  }
+  footer {
+    max-width: 480px;
+    height: 493px;
+    flex-direction: column;
+    padding: 42px 0px;
+  }
+  .title_button {
+    width: 90%;
+  }
+  /* INDEX PAGE END */
+
+  /* ARTWORKS PAGE */
+
+  .artwork_main {
+    display: flex;
+    flex-direction: column;
+  }
+  .shopbycategory {
+    width: 155px;
+    height: 22px;
+  }
+  .artwork_article_button {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .artwork_search {
+    width: 366px;
+    height: 56px;
+  }
+  .search_btn {
+    width: 83px;
+  }
+  .main_part2 {
+  }
+  .artwork_products {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 44px;
+  }
+
+  /* CONTACT PAGE */
+  .contact_section {
+    max-width: 480px;
+  }
+  .contact_form {
+    padding: 128px 20px;
+  }
+  .section_form {
+    width: 440px;
+    height: 400px;
+    padding: 12px 15px;
+  }
+  .message_box {
+    width: 410px;
+  }
+  .contact_information {
+    flex-direction: column;
+    width: 366px;
+    height: 615px;
+  }
+  .contact_map {
+    flex-direction: column;
+  }
+  iframe {
+    width: 366px;
+    height: 320px;
+  }
+}
