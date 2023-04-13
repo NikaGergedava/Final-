@@ -32,7 +32,7 @@ header {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.125em;
+  font-size: 1.125rem;
   line-height: 22px;
   box-shadow: inset 0 0 0 0 #350ee2;
   padding: 0 0.25rem;
@@ -49,7 +49,7 @@ header {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.125em;
+  font-size: 1.125rem;
   line-height: 22px;
   box-shadow: inset 0 0 0 0 #350ee2;
   padding: 0 0.25rem;
@@ -176,7 +176,7 @@ header {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.125rem
   line-height: 22px;
   color: #b53b1b;
 }
@@ -190,7 +190,7 @@ article {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 48px;
   color: white;
   text-align: center;
@@ -230,7 +230,7 @@ article {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 48px;
   color: #402101;
   text-align: center;
@@ -255,7 +255,7 @@ article {
 }
 .fa-square-caret-right,
 .fa-square-caret-left {
-  font-size: 44px;
+  font-size: 2.75rem;
   color: #b53b1b;
   border-radius: 5px;
 }
@@ -277,7 +277,7 @@ article {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19px;
   color: #b53b1b;
 }
@@ -312,7 +312,7 @@ article {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 48px;
   color: #ffffff;
   margin-top: 160px;
@@ -346,7 +346,7 @@ article {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.125rem
   line-height: 22px;
   color: #402101;
   border-style: none;
@@ -375,7 +375,7 @@ article {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 44px;
   color: #402101;
   text-align: center;
@@ -392,7 +392,7 @@ article {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 29px;
   color: #b53b1b;
   margin-bottom: 24px;
@@ -401,7 +401,7 @@ article {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19px;
   color: #402101;
 }
@@ -416,7 +416,7 @@ article {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 29px;
   color: #402101;
   text-align: center;
@@ -430,7 +430,7 @@ article {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 29px;
   color: #ffffff;
   margin-bottom: 160px;
@@ -466,7 +466,7 @@ footer {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.125rem
   line-height: 22px;
   color: #ffffff;
 }
@@ -482,7 +482,7 @@ footer {
   font-family: "Rubik";
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19px;
 }
 .footer_social_links {
@@ -501,13 +501,13 @@ footer {
   font-family: "Rubik";
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19px;
   color: #ffffff;
 }
 .link_icon {
   color: black;
-  font-size: 30px;
+  font-size: 1.875rem;
   transition: 0.4s;
 }
 .footer_logo {
@@ -602,7 +602,7 @@ footer {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.125rem
   line-height: 22px;
 }
 .artwork_main_search {
@@ -635,7 +635,7 @@ footer {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 48px;
   color: #402101;
 }
@@ -654,13 +654,13 @@ footer {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 29px;
   color: #402101;
 }
 .fa-arrow-down-up-across-line {
   position: absolute;
-  font-size: 27px;
+  font-size: 1.688rem;
   text-align: end;
 }
 .artwork_products {
@@ -686,7 +686,7 @@ footer {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19px;
   color: #b53b1b;
 }
@@ -700,14 +700,14 @@ footer {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 29px;
   color: #402101;
 }
 .fa-cart-plus {
   background: rgba(213, 144, 110, 0.3);
   border-radius: 5px;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .page_list {
   margin-top: 142px;
@@ -733,27 +733,35 @@ footer {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  width: 1920px;
-  height: 720px;
+  /* width: 1920px;
+  height: 720px; */
 }
 .contact_form {
   /* margin: 0 auto; */
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  position: absolute;
-  border: 3px solid red;
+  left: 240px;
+  top: 208px;
+  /* position: absolute; */
+  /* border: 3px solid red; */
+  /* width: 500px;
+  height: 400px;
+  background: rgba(64, 33, 1, 0.73);
+  border: 1px solid #ffffff;
+  box-shadow: -1px -1px 4px #ffffff;
+  border-radius: 10px; */
+  left: 240px;
+  top: 208px;
+}
+form {
   width: 500px;
   height: 400px;
   background: rgba(64, 33, 1, 0.73);
   border: 1px solid #ffffff;
   box-shadow: -1px -1px 4px #ffffff;
   border-radius: 10px;
-  left: 240px;
-  top: 208px;
-}
-form {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* width: 500px;
   height: 400px; */
   /* background: rgba(64, 33, 1, 0.73);
@@ -780,7 +788,7 @@ form {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 48px;
   color: #ffffff;
   margin-bottom: 45px;
@@ -824,7 +832,7 @@ margin: 0 auto;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 48px;
   color: #402101;
   text-align: center;
@@ -840,7 +848,7 @@ h3 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125rem
   line-height: 22px;
   color: #b53b1b;
 }
@@ -848,7 +856,7 @@ h3 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19px;
   color: #623932;
 }
