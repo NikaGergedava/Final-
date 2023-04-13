@@ -721,8 +721,141 @@ footer {
   border: 2px solid #b53b1b;
   background: none;
 }
-.page_num_active{
-background: #B53B1B;;
+.page_num_active {
+  background: #b53b1b;
 }
 /* ARTWORK_MAIN_END */
 
+/* CONTACT_PAGE */
+.contact_section {
+  background-image: url(/images/Rectangle\ 108.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  width: 1920px;
+  height: 720px;
+}
+.contact_form {
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  border: 3px solid red;
+  width: 500px;
+  height: 400px;
+  background: rgba(64, 33, 1, 0.73);
+  border: 1px solid #ffffff;
+  box-shadow: -1px -1px 4px #ffffff;
+  border-radius: 10px;
+  left: 240px;
+  top: 208px;
+}
+form {
+  margin: 0 auto;
+  /* width: 500px;
+  height: 400px; */
+  /* background: rgba(64, 33, 1, 0.73);
+  border: 1px solid #ffffff;
+  box-shadow: -1px -1px 4px #ffffff;
+  border-radius: 10px; */
+}
+.contact_line1 {
+  display: flex;
+  justify-content: flex-start;
+  /* border: 2px solid white; */
+  gap: 29px;
+  margin-bottom: ;
+}
+.contact_line2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.contact_form_title {
+  margin-top: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  margin-bottom: 45px;
+}
+input {
+  width: 190px;
+  height: 40px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  background: none;
+}
+.message_box {
+  width: 440px;
+  height: 96px;
+  border-radius: 10px;
+}
+.submit_btn {
+  width: 147px;
+  height: 56px;
+  background: #d5906e;
+  border-radius: 10px;
+  border-style: none;
+  outline: none;
+}
+.submit_btn:hover {
+  background-color: #3e8e41;
+}
+.submit_btn:active {
+  transform: scale(0.95);
+}
+/* SECTION_END */
+
+/* CONTACT-INFO */
+.contact_information{
+  background-color: rgba(213, 144, 110, 0.3);
+  width: 1190px;
+height: 408px;
+margin: 0 auto;
+}
+.contact_information_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #402101;
+  text-align: center;
+}
+.phone {
+  margin-top: 40px;
+}
+.mail {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #b53b1b;
+}
+.contact_information_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #623932;
+}
+.contact_map{
+  display: flex;
+  justify-content: space-between;
+}
+.map{
+  margin-top: 40px;
+}

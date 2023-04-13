@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -11,10 +11,134 @@
       src="https://kit.fontawesome.com/ac74727abb.js"
       crossorigin="anonymous"
     ></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="contact_section"></div>
+      <section class="contact_section">
+        <header>
+          <nav>
+            <ul class="headerlist">
+              <li><a class="header_text" href="index.html">Home</a></li>
+              <li><a class="header_text" href="artworks.html">Artworks</a></li>
+              <li><a class="active_page" href="contact.html">contact</a></li>
+            </ul>
+          </nav>
+          <a href="index.html"><img src="images/logo (1).png" alt="" /></a>
+          <div class="header_icons">
+            <p class="signin">sign in</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </header>
+        <div class="contact_form">
+          <form>
+            <h2 class="contact_form_title">Get in Touch</h2>
+            <div class="contact_line1">
+              <input
+                type="text"
+                id="fullname"
+                name="NAME"
+                value=""
+                placeholder="Full Name"
+              />
+              <label for="fullname"></label>
+
+              <input type="email" id="email" name="EMAIL" placeholder="Email" />
+              <label for="email"></label>
+            </div>
+            <div class="contact_line2">
+              <input
+                class="message_box"
+                type="text"
+                id="message"
+                name="MASSAGE"
+                value=""
+                placeholder="Message"
+              />
+              <label for="message"></label>
+            </div>
+            <button class="submit_btn" type="submit">SUBMIT</button>
+          </form>
+        </div>
+      </section>
+      <div class="contact_information">
+        <h2 class="contact_information_title">Contact</h2>
+        <div class="contact_map">
+        <div class="contact_info_list">
+          <div class="phone">
+            <h3>Call Us</h3>
+            <a class="contact_information_text" href="callto:+123 45 67  89"
+              >+123 45 67 89</a
+            >
+          </div>
+          <div class="mail">
+            <h3>Email Us</h3>
+            <a class="contact_information_text" href="mailto:example@mail.com"
+              >example@mail.com</a
+            >
+          </div>
+          <div class="address">
+            <h3>Addres</h3>
+            <a
+              class="contact_information_text"
+              href="https://goo.gl/maps/F7iqWAvXjTWyAe78A"
+              target="blank"
+              >Rustaveli avenue, 30</a
+            >
+          </div>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.911046088237!2d44.79199431165183!3d41.70085597637298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cdd1af7ece7%3A0xa0647da208fff81e!2s30%20Shota%20Rustaveli%20Ave%2C%20T&#39;bilisi!5e0!3m2!1sru!2sge!4v1681351037358!5m2!1sru!2sge"
+            width="600"
+            height="320"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
     </div>
-</body>
+      </div>
+      <footer>
+
+        <div class="footer_nav">
+        
+          <div class="footer_nav_part1">
+            <p class="footer_nav_title">Hele</p>
+            <p><a class="footer_nav_link" href="index.html">Help Center</a></p>
+            <p>
+              <a class="footer_nav_link" href="index.html">Privacy Settings</a>
+            </p>
+          </div>
+          <div class="footer_social_links">
+            <a href="https://www.youtube.com/"
+              ><i class="fa-brands fa-youtube link_icon"></i
+            ></a>
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram link_icon"></i
+            ></a>
+            <a href="https://www.facebook.com/"
+              ><i class="fa-brands fa-facebook link_icon"></i
+            ></a>
+          </div>
+        </div>
+        <img class="footer_logo" src="images/logo (1).png" alt="" />
+        <div class="footer_contact">
+          <div class="contact">
+            <i class="fa-solid fa-phone contact_icon"></i>
+            <p class="contact_info">+123 45 67 89</p>
+          </div>
+          <div class="gmail">
+            <i class="fa-regular fa-envelope contact_icon"></i>
+            <p class="contact_info">example@mail.com</p>
+          </div>
+          <div class="adress">
+            <i class="fa-solid fa-location-dot contact_icon"></i>
+            <p class="contact_info">Rustaveli avenue, 30</p>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </body>
 </html>
