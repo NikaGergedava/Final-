@@ -9,6 +9,7 @@ section {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
 }
 /* HEADER */
 header {
@@ -21,7 +22,6 @@ header {
   max-width: inherit;
   width: 100%;
   position: fixed;
-  
 }
 .headerlist {
   display: flex;
@@ -73,14 +73,15 @@ header {
   font-size: 1rem;
   line-height: 19px;
   color: white;
+  transition: 0.3s;
 }
-.signin:hover{
+.signin:hover {
   transform: scale(1.5);
   color: rgb(8, 253, 61);
-
 }
 .fa-cart-shopping {
   color: white;
+  transition: 0.3s;
 }
 .fa-cart-shopping:hover {
   transform: scale(1.5);
@@ -130,7 +131,6 @@ header {
   color: white;
   align-items: center;
   animation: color-change 5s infinite;
-
 }
 .shopnow {
   width: 311px;
@@ -148,15 +148,15 @@ header {
   cursor: pointer;
   overflow: hidden;
   color: white;
+  transition: 0.5s;
 }
-.shopnow:hover{
+.shopnow:hover {
   transform: scale(1.1);
-
 }
 /* SECTION_END */
 
 /* MAIN */
-main {
+.home_main {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -172,7 +172,7 @@ main {
   text-align: center;
   gap: 24px;
 }
-figcaption {
+.home_main_figcaption {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -245,14 +245,13 @@ article {
   margin: 0 auto;
   margin-bottom: 160px;
   overflow: hidden;
-
 }
 .item {
   width: 315px;
   height: 260px;
   position: relative;
   overflow: hidden;
-
+  transition: 0.5s;
 }
 .fa-square-caret-right,
 .fa-square-caret-left {
@@ -260,11 +259,10 @@ article {
   color: #b53b1b;
   border-radius: 5px;
 }
-.sell_item_img{
+.sell_item_img {
   transition: transform 0.25s;
-
 }
-.item:hover{
+.item:hover {
   transform: scale(1.1);
 }
 .product_price {
@@ -290,6 +288,7 @@ article {
   display: flex;
   border: 2px solid red;
   background-image: url("/images/Rectangle\ 98.png");
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -321,16 +320,16 @@ article {
 }
 .email_btn {
   display: flex;
-  margin: 0 auto;
+  justify-content: flex-end;
   margin-bottom: 160px;
-  /* border: 2px solid white; */
+  transition: 0.5s;
 }
 .mailbox {
   position: relative;
   background: none;
   border: 1px solid #ffffff;
   border-radius: 10px;
-  width: 331px;
+  width: 482px;
   height: 56px;
 }
 .mailbox:focus {
@@ -339,7 +338,7 @@ article {
 }
 .subscribe_btn {
   position: absolute;
-  left: 1010px;
+  justify-content: flex-end;
   width: 151px;
   height: 56px;
   background: #ffffff;
@@ -352,10 +351,11 @@ article {
   color: #402101;
   border-style: none;
   outline: none;
+  transition: 0.5s;
 }
-.subscribe_btn:hover{
-background-color: rgb(71, 24, 199);
-transition: 0.5s ;
+.subscribe_btn:hover {
+  background-color: rgb(71, 24, 199);
+  transition: 0.5s;
 }
 /* SECTION 3_END */
 
@@ -434,10 +434,10 @@ transition: 0.5s ;
   line-height: 29px;
   color: #ffffff;
   margin-bottom: 160px;
+  transition: 0.5s;
 }
-.section4_btn:hover{
+.section4_btn:hover {
   transform: scale(1.1);
-
 }
 /* SECTION 4_END */
 
@@ -508,6 +508,7 @@ footer {
 .link_icon {
   color: black;
   font-size: 30px;
+  transition: 0.4s;
 }
 .footer_logo {
 }
@@ -545,3 +546,183 @@ footer {
 }
 
 /* FOOTER_END */
+
+/* ARTWORKS_css */
+/* SECTION & HEADER */
+.artwork_section {
+  background-image: url("/images/Rectangle\ 107.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.shopnow_artwork {
+  width: 311px;
+  height: 56px;
+  border: 2px solid #d5906e;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  color: white;
+  margin-top: 72px;
+  transition: 0.5s;
+}
+.shopnow_artwork:hover {
+  transform: scale(1.2);
+}
+/* SECTION & HEADER_END */
+
+/* ARTWORK_MAIN */
+.artwork_main {
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 161px;
+  width: 76%;
+}
+.artwork_article_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 95px;
+}
+.shopbycategory {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+.artwork_main_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.artwork_main_search {
+  display: flex;
+  justify-content: flex-end;
+}
+.artwork_search {
+  width: 690px;
+  height: 56px;
+  border: 2px solid #402101;
+  border-radius: 10px;
+  position: relative;
+}
+.search_btn {
+  width: 251px;
+  height: 56px;
+  background: #402101;
+  border-radius: 0px 10px 10px 0px;
+  border-style: none;
+  outline: none;
+  position: absolute;
+  align-items: flex-end;
+}
+.search_btn:hover {
+  background-color: rgb(71, 24, 199);
+  transition: 0.5s;
+}
+.artwork_main_title {
+  margin-top: 61px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #402101;
+}
+.sort {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.sort_btn {
+  width: 118px;
+  height: 29px;
+  border: 2px solid #b53b1b;
+  border-radius: 5px;
+  background: #ffffff;
+  text-align: start;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #402101;
+}
+.fa-arrow-down-up-across-line {
+  position: absolute;
+  font-size: 27px;
+  text-align: end;
+}
+.artwork_products {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 94px;
+}
+.artwork_card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 315px;
+  height: 311px;
+}
+.artwork_main_fig {
+}
+.artwork_main_fig:hover {
+  filter: drop-shadow(0 0 0.75rem crimson);
+  transition: 0.15s;
+}
+.artwork_main_figcap {
+  margin-top: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #b53b1b;
+}
+.price_icon {
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #402101;
+}
+.fa-cart-plus {
+  background: rgba(213, 144, 110, 0.3);
+  border-radius: 5px;
+  font-size: 24px;
+}
+.page_list {
+  margin-top: 142px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 160px;
+}
+.page_num {
+  width: 56px;
+  height: 56px;
+  border: 2px solid #b53b1b;
+  background: none;
+}
+.page_num_active{
+background: #B53B1B;;
+}
+/* ARTWORK_MAIN_END */
+
