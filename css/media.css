@@ -24,7 +24,7 @@
     font-size: 1.313rem;
   }
   .fa-xmark{
-    display: none;
+    /* display: none; */
     padding-left: 25px;
     font-size: 1.313rem;
   }
