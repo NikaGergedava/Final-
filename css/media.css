@@ -1,12 +1,54 @@
-@media (max-width: 480px) {
-  /* INDEX PAGE */
-  .container {
-    max-width: 480px;
+@media (max-width: 1355px) {
+  header {
+    max-width: 1355px;
     width: 100%;
-    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 50px;
+    height: 96px;
+    align-items: center;
   }
+  footer {
+    max-width: 1355px;
+    height: 493px;
+    flex-direction: column;
+    padding: 42px 0px;
+  }
+  .contact_information {
+    /* flex-direction: column; */
+    width: 50%;
+    height: 615px;
+  }
+  .contact_map {
+    flex-direction: column;
+  }
+  iframe {
+    width: 100%;
+    height: 320px;
+  }
+
+.cards_part{
+  width: 80%;
+}
+}
+
+
+
+
+
+
+
+@media (max-width: 1150px){
+  .message_box{
+    height: 50%;
+  }
+  .sectionitems{
+    width: 60%;
+  }
+}
+@media (max-width: 750px) {
   .menu {
-    /* display: none; */
+    display: none;
     width: 50%;
     flex-direction: column;
     justify-content: space-around;
@@ -28,7 +70,58 @@
     padding-left: 25px;
     font-size: 1.313rem;
   }
+  .title_button {
+    width: 100%;
+  }
+  .cards_part{
+    width: 90%;
+  }
+  .article_cards{
+    width: 90%;
+  }
+  .sell_cards{
+    width: 95%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .item{
+    width: 45%;
+  }
+  .none{
+    display: none;
+
+  }
+  .block{
+    display: block;
+  }
+  .view_more{
+    display: block;
+    margin-top: 40px;
+  }
+  .sectionitems{
+    width: 60%;
+  }
   .show{
+    left: 0;
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+  /* INDEX PAGE */
+  .container {
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+
+  /* .show{ */
     left: 0;
   }
   section {
@@ -41,15 +134,7 @@
     background-size: cover;
     background-position: center;
   }
-  header {
-    max-width: 480px;
-    width: 100%;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 0px 0px;
-    height: 96px;
-    align-items: center;
-  }
+
   .sectionitems {
     justify-content: flex-start;
 
@@ -70,13 +155,7 @@
     align-items: center;
     margin-bottom: 52px;
   }
-  .home_main {
-    flex-direction: column;
-    align-items: center;
-  }
-  .none {
-    display: none;
-  }
+
   .article_cards {
     display: flex;
     justify-content: space-between;
@@ -108,15 +187,8 @@
   .section4_3text {
     flex-direction: column;
   }
-  footer {
-    max-width: 480px;
-    height: 493px;
-    flex-direction: column;
-    padding: 42px 0px;
-  }
-  .title_button {
-    width: 90%;
-  }
+
+ 
   /* INDEX PAGE END */
 
   /* ARTWORKS PAGE */
@@ -165,16 +237,5 @@
   .message_box {
     width: 410px;
   }
-  .contact_information {
-    flex-direction: column;
-    width: 366px;
-    height: 615px;
-  }
-  .contact_map {
-    flex-direction: column;
-  }
-  iframe {
-    width: 366px;
-    height: 320px;
-  }
+
 }
